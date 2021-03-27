@@ -4,6 +4,7 @@
 		    error_reporting(0);
 		    Session::init();
 			parent::__construct();
+			Session::chkuser();
 		}
 		public function Index(){
 			$this->cart();
@@ -31,6 +32,7 @@
 	}
 	
     public function cart(){
+		$uid = Session::get('userid');
         $sid = session_id();
         
         

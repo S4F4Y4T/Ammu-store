@@ -156,8 +156,8 @@
 		}
 		
 		
-		public function details($id = NULL){
-		    $data = array(
+	public function details($id = NULL){
+		$data = array(
 		'TableMain'		 => array('TableMain' => 'product'),
 		'Tablea'			   => array('Tablea'    => 'category'),
 		'Tableb'			 => array('Tableb'    => 'brand'),

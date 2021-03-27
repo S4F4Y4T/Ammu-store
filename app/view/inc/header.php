@@ -1,15 +1,4 @@
-<?php
-    //set headers to NOT cache a page
-    header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1.
-    header("Pragma: no-cache"); // HTTP 1.0.
-    header("Expires: 0"); // Proxies.
-    // Date in the past
-    //or, if you DO want a file to cache, use:
-    //header("Cache-Control: max-age=2592000"); 
-    //30days (60sec * 60min * 24hours * 30days)
-      
-    session_cache_limiter("must-revalidate");
-      
+<?php   
     Session::init(); 
 ?>
     
@@ -27,7 +16,7 @@
 <meta property="og:description"        content="This is a ARM dealing site made out of fun by a self developer name safayat mahmud its not violence any of law" />
 
 <meta property=”og:site_name” content=”SITE NAME” />
-<link href="<?php echo BASE; ?>/style/css/style.css?v=7.5" rel="stylesheet" type="text/css" media="all"/>
+<link href="<?php echo BASE; ?>/style/css/style.css?v=7.6" rel="stylesheet" type="text/css" media="all"/>
 <link href="<?php echo BASE; ?>/style/css/menu.css" rel="stylesheet" type="text/css" media="all"/>
 <link rel = "icon" type = "image/png" href = "<?php echo BASE; ?>/style/images/logo.png">
 <script src="<?php echo BASE; ?>/style/js/jquerymain.js"></script>

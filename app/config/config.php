@@ -1,10 +1,10 @@
 <?php
-	define("BASE","https://safayat.a2hosted.com");
+	define("BASE","http://ecommerce.test");
 	define("imglocation","img/");
 	define("host","localhost");
-	define("dbname","safayata_ecommerce");
-	define("user","safayata_com");
-	define("pass","S4F4Y4T1337");
+	define("dbname","ecommerce");
+	define("user","root");
+	define("pass","");
 	define("mail","developer@safayat.a2hosted.com");
 	
 	// Stripe API configuration  

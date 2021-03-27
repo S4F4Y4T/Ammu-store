@@ -31,7 +31,7 @@
 	    $this->load->view("inc/header",$data);
 	}
 	
-	public function feature($page){
+	public function feature($page = 1){
 	    $this->header();
 	    
 	    if($page <= 0){
@@ -67,7 +67,7 @@
 	    $this->load->view("inc/footer");
 	}
 	
-	public function products($page){
+	public function products($page = 1){
 	    $this->header();
 	    
 	    if($page <= 0){
