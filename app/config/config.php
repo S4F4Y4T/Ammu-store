@@ -1,10 +1,10 @@
 <?php
-	define("BASE","http://ecommerce.test");
+	define("BASE","http://personal.vh/Ecommerce-PHP-MVC/");
 	define("imglocation","img/");
 	define("host","localhost");
 	define("dbname","ecommerce");
-	define("user","root");
-	define("pass","");
+	define("user","user");
+	define("pass","skidie1337");
 	define("mail","developer@safayat.a2hosted.com");
 	
 	// Stripe API configuration  

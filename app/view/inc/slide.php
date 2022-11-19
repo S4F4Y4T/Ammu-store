@@ -17,7 +17,7 @@
 						<h2><?php $st = $value['name'];
             							$st = substr($st, 0, 20);
             							echo $st; ?></h2>
-						<div class="button"><span><a href="<?php echo $BASE; ?>/Indexs/details/<?= base64_encode($value['id']); ?>">Add to cart</a></span></div>
+						<div class="button"><span><a href="<?php echo BASE; ?>/Indexs/details/<?php echo base64_encode($value['id']); ?>">Add to cart</a></span></div>
 				   </div>
 			   </div>			
 				<?php }} ?>

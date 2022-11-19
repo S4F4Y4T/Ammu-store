@@ -3,7 +3,7 @@
 
 	  public static function init(){
 		  session_start();
-          session_regenerate_id(true);
+//          session_regenerate_id(true);
 	  }
 	  public static function set($key, $val){
 		  $_SESSION[$key] = $val;
