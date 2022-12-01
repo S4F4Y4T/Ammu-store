@@ -1,0 +1,109 @@
+
+
+<div align="center">
+  <h3 align="center">Ammu Store</h3>
+  <p>Ecommerce for your ammunation store</p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+![Screen Shot][product-screenshot]
+
+This is a php script which will allow you to import your excel sheet into the mysql DB
+
+Here's why:
+* Time effecient
+* No need to recreate the wheel
+* Will be secure
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+This platform built wih my own made php MVC framework from scracth. 
+
+* [![php][php]][php-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+By following the instructions you can run the script on your machine
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/S4F4Y4T/Ammu-store.git
+   ```
+2. Changin folder and files permissions 
+   ```sh
+   sudo find "Your project directory" -type f -exec chmod 644 {} \;
+   sudo find "Your project directory" -type d -exec chmod 755 {} \;
+   ```
+3. Give the img folder permission to upload
+
+4. Create and import the safayata_ecommerce.sql into mysql DB
+
+5. Open app/config/config.php and change the db information accordingly,stripe key values and base value to your project url
+
+6. Make sure .htaccess exist
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+After running the script on your apache server got to the project location and you'll see an upload input there choose the example.xlsx file and hit import then all your excell info will be parsed into mysql table
+
+[![Screen Shot][product-screenshot]]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[product-screenshot]: overview/1.png
+
+[php]: https://img.shields.io/badge/php-php-white
+[Php-url]: https://www.php.net/
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
