@@ -30,22 +30,27 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Screen Shot][product-screenshot]
+![Screen Shot][product-screenshot-1]
 
-This is a php script which will allow you to import your excel sheet into the mysql DB
+This is a e-commerce platform for ammunation.
+
+The application has two part one of is the frontend store from where you can view products by category,brand and search. You can also view product description and add the product to cart,compare list or wishlist as you want. After adding to cart you can checkout from the application after filling out all your billing and card data.
+
+The second part includes the admin dashboard which let you handle all the products,orders,message and category with visualize dashboard
 
 Here's why:
-* Time effecient
-* No need to recreate the wheel
-* Will be secure
+* Maintainable
+* Clean Code
+* Advance PHP
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-This platform built wih my own made php MVC framework from scracth. 
+This platform built wih my design pattern and own made php MVC framework from scracth on the backend. Frontend use random template and dashboard use ADMIN LTE free admin dashboard 
 
 * [![php][php]][php-url]
+* ![php][mvc]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
@@ -77,14 +82,24 @@ By following the instructions you can run the script on your machine
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-After running the script on your apache server got to the project location and you'll see an upload input there choose the example.xlsx file and hit import then all your excell info will be parsed into mysql table
+You can use this application to sell your products online.
 
-[![Screen Shot][product-screenshot]]
+Here some screenshots of front panel
+![Screen Shot][product-screenshot-1]
+![Screen Shot][product-screenshot-2]
+![Screen Shot][product-screenshot-3]
+![Screen Shot][product-screenshot-8]
+![Screen Shot][product-screenshot-9]
+
+Here some screeshots of admin dashboard
+![Screen Shot][product-screenshot-4]
+![Screen Shot][product-screenshot-5]
+![Screen Shot][product-screenshot-6]
+![Screen Shot][product-screenshot-7]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,9 +114,18 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[product-screenshot]: overview/1.png
+[product-screenshot-1]: overview/1.png
+[product-screenshot-2]: overview/2.png
+[product-screenshot-3]: overview/3.png
+[product-screenshot-4]: overview/4.png
+[product-screenshot-5]: overview/5.png
+[product-screenshot-6]: overview/6.png
+[product-screenshot-7]: overview/7.png
+[product-screenshot-8]: overview/8.png
+[product-screenshot-9]: overview/9.png
 
 [php]: https://img.shields.io/badge/php-php-white
+[mvc]: https://img.shields.io/badge/MVC-MVC%20Framework-white
 [Php-url]: https://www.php.net/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
