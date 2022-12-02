@@ -94,7 +94,6 @@ By following the instructions you can run the script on your machine
 You can use this application to sell your products online.
 
 Here some screenshots of front panel
-![Screen Shot][product-screenshot-1]
 ![Screen Shot][product-screenshot-2]
 ![Screen Shot][product-screenshot-3]
 ![Screen Shot][product-screenshot-8]
