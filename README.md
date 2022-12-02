@@ -19,6 +19,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#installation">Prerequisites</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -58,6 +59,11 @@ This platform built wih my design pattern and own made php MVC framework from sc
 
 <!-- GETTING STARTED -->
 ## Getting Started
+
+### Prerequisites
+
+Before installing the script you need some external dependencies on your machine
+* php 7.2 <
 
 By following the instructions you can run the script on your machine
 
