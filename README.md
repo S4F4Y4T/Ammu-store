@@ -90,12 +90,18 @@ By following the instructions you can run the script on your machine
 ## Usage
 
 User credentials:
-   username: safayat
-   password: password
-
+  ```sh
+  url: /user/user
+  username: safayat
+  password: password
+  ```
+  
 Admin credentials:
-   username: admin
-   password: password
+  ```sh
+  url: /admin
+  username: admin
+  password: password
+  ```
 
 Here some screenshots of front panel
 ![Screen Shot][product-screenshot-2]
