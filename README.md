@@ -39,11 +39,6 @@ The application has two part one of is the frontend store from where you can vie
 
 The second part includes the admin dashboard which let you handle all the products,orders,message and category with visualize dashboard
 
-Here's why:
-* Maintainable
-* Clean Code
-* Advance PHP
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
@@ -61,6 +56,8 @@ This platform built wih my design pattern and own made php MVC framework from sc
 ## Getting Started
 
 ### Prerequisites
+
+Need live server for the mail function to work
 
 Before installing the script you need some external dependencies on your machine
 * php 7.2 <
@@ -91,7 +88,13 @@ By following the instructions you can run the script on your machine
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-You can use this application to sell your products online.
+User credentials:
+   username: safayat
+   password: password
+
+Admin credentials:
+   username: admin
+   password: password
 
 Here some screenshots of front panel
 ![Screen Shot][product-screenshot-2]
